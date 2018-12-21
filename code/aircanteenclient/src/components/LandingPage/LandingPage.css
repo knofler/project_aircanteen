@@ -1,0 +1,314 @@
+.landingpage-component-header {
+  /* margin-top: -20px; */
+  height: 40%;
+  min-height: 350px;
+  background-size: cover;
+}
+
+.landingpage-component-header .header-wrp {
+  /* border: 1px solid; */
+  height: 100%;
+}
+
+.landingpage-component-header .header-wrp .header-title {
+  font-size: 60px;
+}
+
+
+
+.landingpage-component-header .header-wrp {
+  margin-top: 70px;
+}
+
+.chef-locatior-wrapper {
+  margin: 20px 0px;
+  /* background-color: #f6fcf6; */
+  margin-top: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.chef-locatior-wrapper ._tabs {
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.chef-locatior-wrapper .location-tab {
+  padding: 10px 20px;
+  border-bottom: 3px solid rgb(241, 247, 252);
+  display: inline-block;
+  font-weight: bold;
+}
+
+.chef-locatior-wrapper ._tph {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.chef-locatior-wrapper ._tabs_header {
+  /* border: 1px solid; */
+  overflow: hidden;
+  height: 47px;
+}
+
+.chef-locatior-wrapper ._tabs_body {
+  /* border: 1px solid; */
+  margin-top: 15px;
+  text-align: left;
+}
+
+.chef-locatior-wrapper .location-tab:hover, .chef-locatior-wrapper .active-location-tab {
+  /* background-color: rgb(240, 244, 250);
+  border-color: rgb(217, 229, 238); */
+  color: #5cb85c;
+  cursor: pointer;
+  border-bottom-color: #5cb85c;
+}
+.chef-locatior-wrapper .chef-tab {
+  margin: 10px 0px;
+}
+
+.chef-locatior-wrapper .chef-tab .card-header-image {
+  height: 200px;
+  overflow: hidden;
+}
+.chef-locatior-wrapper .chef-tab img.product-img {
+  width: 100%;
+  /* border-radius: 10px; */
+}
+
+.chef-locatior-wrapper .location-tab .pull-right i.fas {
+  font-size: 25px;
+}
+
+.chef-locatior-wrapper .form-custom-location {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.chef-locatior-wrapper .form-custom-location span.fascon {
+  margin-right: 10px;
+  /* margin-left: 20px; */
+  font-size: 20px;
+  color: rgb(48, 126, 194);
+}
+
+.chef-locatior-wrapper .form-custom-location .fassearch {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.chef-locatior-wrapper .search-box-wrapper {
+  /* padding-bottom: 10px; */
+}
+
+.help-block-wrapper {
+  margin: 120px 0px;
+}
+
+.help-block-wrapper .hp-cont {
+  display: flex;
+  height: 120px;
+  /* background-color: cadetblue; */
+  /* flex-direction: column; */
+  justify-content: center;
+  /* border: 1px solid; */
+  /* padding: 25px 0px; */
+}
+
+.help-block-wrapper .hp-cont h3 {
+  color: cadetblue;
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.help-block-wrapper .hp-cont ._a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.help-block-wrapper .hp-cont ._a img {
+  width: 70px;
+  height: 70px;
+}
+
+.help-block-wrapper .hp-cont ._b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.help-block-wrapper .hp-nest {
+  font-size: 16px;
+}
+
+.about-block-wrapper {
+  /* background-color: rgb(237, 246, 253); */
+  padding: 20px 0px;
+  padding-bottom: 50px;
+}
+
+.about-block-wrapper h1 {
+  color: rgb(48, 126, 194);
+  font-size: 23px;
+}
+
+.about-block-wrapper p {
+  color: #444;
+}
+
+.payment-block-wrapper {
+  padding: 35px 15px;
+  text-align: center;
+  border-bottom: 1px solid rgb(213, 226, 235);
+}
+
+.payment-block-wrapper ._t {
+  padding-bottom: 15px;
+}
+
+.payment-block-wrapper ._i img {
+  padding-bottom: 15px;
+  max-width: 90%;
+}
+
+.footer-wrapper {
+  padding: 35px 15px;
+  text-align: center;
+}
+
+.footer-wrapper ._l {
+  padding-bottom: 10px;
+}
+
+.footer-wrapper ._c {
+  color: #aaa;
+}
+
+.footer-wrapper ._l a {
+  margin-right: 15px;
+}
+
+.landingpage-wrapper .search-block {
+  padding: 40px 20px;
+  padding-bottom: 0px;
+}
+
+.landingpage-wrapper ._jt {
+  font-size: 40px;
+  font-weight: bold;
+  color: #222;
+  line-height: 38px;
+  margin-bottom: 25px;
+  margin-top: 70px;
+}
+
+.landingpage-wrapper ._sf .input-group-addon {
+  border-color: #5cb85c;
+  background-color: #fff;
+  font-size: 18px;
+  color: #5cb85c;
+}
+
+.landingpage-wrapper ._sf #searchbox {
+  background-color: #fff;
+  border-left: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 25px;
+  padding-left: 0px;
+  box-shadow: none;
+  border-color: #5cb85c;
+  font-size: 18px;
+}
+
+.landingpage-wrapper ._sf ._sf_f {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.landingpage-wrapper ._sf ._sf_f button.btn {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: -14px;
+  padding: 0px 20px;
+  border-radius: 4px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.landingpage-wrapper .__imb {
+  width: 90%;
+}
+
+.landingpage-wrapper .__imb_wrp {
+  text-align: right;
+}
+
+@media screen and ( max-width: 600px ) {
+  .landingpage-wrapper ._jt {
+    font-size: 28px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .landingpage-wrapper ._sf ._sf_f {
+    display: flex;
+    flex-direction: column;
+  }
+  .landingpage-wrapper ._sf ._sf_f button.btn {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 2px !important;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .chef-locatior-wrapper ._tph {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .landingpage-component-header .header-wrp .header-title {
+    font-size: 30px;
+  }
+  .footer-wrapper ._l a {
+    display: block;
+    padding: 5px;
+  }
+  .landingpage-wrapper .app-dwn-block {
+    padding: 20px;
+    background-color: #daece3;
+    position: relative;
+    margin: 0px;
+  }
+}
+
+.landingpage-wrapper .app-dwn-block {
+  /* border: 1px solid; */
+  padding: 60px 35px;
+  background-color: #daece3;
+  position: relative;
+  margin: 50px 0px;
+  margin-top: 100px;
+}
+
+.landingpage-wrapper .app-dwn-block img.mockup-app {
+  height: 350px;
+  position: absolute;
+  top: 0; left: 0;
+  margin-top: -100px;
+  margin-left: -30px;
+}
+
+.landingpage-wrapper .app-dwn-block .app-download {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+  border: 0px;
+  border-radius: 5px;
+}

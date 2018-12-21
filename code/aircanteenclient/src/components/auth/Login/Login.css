@@ -1,0 +1,55 @@
+
+
+.top{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+ .centerDiv{
+     padding-bottom: 2%;
+ }
+.radius{
+    border-radius: 0px !important;
+}
+.btunColor{
+    color: #fff !important;
+    background-color: #3498db !important;
+    border-color: #3498db !important;
+
+}
+
+.divShadow{
+    box-shadow: 0 2px 5px 0 rgba(99, 100, 102, 0.26), 0 4px 12px 0 rgba(116, 117, 119, 0.25); 
+    -webkit-box-shadow: 0 2px 5px 0 rgba(79, 82, 85, 0.26), 0 4px 12px 0 rgba(153, 154, 156, 0.25);
+}
+
+.iconSocial{
+    font-size: 25px;
+    color: #fff;
+
+    /* display: -webkit-box; */
+    display: -webkit-flex;
+    /* display: -moz-box; */
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.si1 {background-color: #3b5998}
+.si2 {background-color: #1da1f2}
+.si3 {background-color: #ea4335}
+
+.flex-c-m{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}

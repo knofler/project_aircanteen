@@ -1,0 +1,27 @@
+version: '2'
+services:
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_USER=ahsan
+      - POSTGRES_PASSWORD=food_in_pocket
+    volumes:
+      - ../data_bak:/var/lib/postgresql/data
+    ports:
+      - '127.0.0.1:5432:5432'
+  web:
+    build: .
+    container_name: air01
+    command: python manage.py runserver 0.0.0.0:7000
+#    env_file: common.env
+    depends_on:
+      - postgres
+    ports:
+      - "127.0.0.1:7000:7000"
+    expose:
+      - "7000"
+    links:
+      - postgres:postgres
+    volumes:
+      - .:/app:Z
+    restart: always

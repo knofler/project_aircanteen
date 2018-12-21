@@ -1,0 +1,29 @@
+div.toastWrapper {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  max-width: 300px;
+  left: 50%;
+  margin-left: -150px;
+}
+
+div.toastWrapper div.toasts {
+  padding: 10px 20px;
+  margin: 5px;
+  max-width: 400px;
+  min-width: 300px;
+  border-radius: 5px;
+}
+
+div.toastWrapper div.toast-success {
+  border: 1px solid rgb(137, 216, 137);
+  display: block;
+  background-color: rgb(217, 236, 217);
+}
+
+div.toastWrapper div.toast-danger {
+  border: 1px solid rgb(230, 153, 153);
+  display: block;
+  background-color: rgb(245, 228, 228);
+}

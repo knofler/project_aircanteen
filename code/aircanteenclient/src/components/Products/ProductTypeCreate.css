@@ -1,0 +1,10 @@
+.remove-selected-item {
+  display: block;
+  text-align: center;
+  border: 1px solid #e26c6c;
+  padding: 0px;
+  width: 22px;
+  border-radius: 30px;
+  color: #e26c6c;
+  cursor: pointer;
+}

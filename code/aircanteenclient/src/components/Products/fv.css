@@ -1,0 +1,12 @@
+.attr-container {
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.attr-container input:first-child {
+  margin-right: 10px;
+}
+.attr-container input:last-child {
+  margin-left: 10px;
+}

@@ -1,0 +1,90 @@
+.navbar {
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ._a {
+  /* background-color: aliceblue; */
+  flex-grow: 1;
+}
+.navbar ._b {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+
+.navbar .logo-link {
+  padding: 0px;
+  margin-top: -6px;
+}
+
+.navbar .logo-link .header-logo {
+  width: 60px;
+}
+
+.navbar .account-l {
+  padding: 0px 10px;
+  /* border: 1px solid; */
+  list-style-type: none;
+}
+
+.navbar .phone-call-menu {
+  position: relative;
+  /* border: 1px solid; */
+  width: 145px;
+  height: 45px;
+  padding-top: 3px;
+}
+
+.navbar .phone-call-menu .help-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* margin-top: -2px; */
+  font-size: 13px;
+  color: rgb(134, 147, 161);
+}
+
+.navbar .phone-call-menu i.fas {
+  position: absolute;
+  font-size: 20px;
+  top: 0; left: 0;
+  margin-top: 20px;
+  color: rgb(59, 199, 122);
+}
+
+.navbar .phone-call-menu span.mobile-no {
+  position: absolute;
+  font-size: 16px;
+  top: 0; left: 0;
+  margin-top: 18px;
+  margin-left: 17px;
+  color: #222;
+}
+
+.navbar .auth-btn {
+  border-radius: 3px;
+  padding: 8px 20px;
+  letter-spacing: 0.5px;
+}
+
+.navbar .auth-btn:first-child {
+  margin-right: 10px;
+  background-color: #fff;
+  color: #222;
+  border-color: #ccc;
+}
+
+.navbar .auth-btn:last-child {
+  background-color: #222;
+  color: #fff;
+  border-color: #111;
+}
+
+
+@media screen and ( max-width: 600px ) {
+  
+}

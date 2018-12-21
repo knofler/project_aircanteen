@@ -1,0 +1,16 @@
+html, body, #root, .routes-dom, .app-component {
+  height: 100%;
+  width: 100%;
+}
+
+.pb20 {
+  padding-bottom: 20px;
+}
+
+.p20 {
+  padding: 20px;
+}
+.form-control, .btn {
+  border-radius: 0px;
+  box-shadow: none;
+}
